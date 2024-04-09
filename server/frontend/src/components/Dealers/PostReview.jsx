@@ -3,8 +3,6 @@ import { useParams } from 'react-router-dom';
 import "./Dealers.css";
 import "../assets/style.css";
 import Header from '../Header/Header';
-
-
 const PostReview = () => {
   const [dealer, setDealer] = useState({});
   const [review, setReview] = useState("");
@@ -57,6 +55,7 @@ const PostReview = () => {
   });
 
   const json = await res.json();
+      console.log(json)
   if (json.status === 200) {
       window.location.href = window.location.origin+"/dealer/"+id;
   }
