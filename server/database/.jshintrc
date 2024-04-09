@@ -1,0 +1,21 @@
+{
+  "asi": true,
+  "curly": false,
+  "eqeqeq": true,
+  "forin": true,
+  "newcap": false,
+  "node": true,
+  "strict": false,
+  "undef": true,
+  "sub": true,
+  "lastsemic": false,
+  "esversion": 8,
+  "globals"   : {
+    "describe"   : false,
+    "it"         : false,
+    "before"     : false,
+    "beforeEach" : false,
+    "after"      : false,
+    "afterEach"  : false
+  }
+}
